@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홍길동 | 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#home" class="logo">Portfolio</a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section home">
+      <h1>안녕하세요, 홍길동입니다.</h1>
+      <p>문제를 해결하는 프론트엔드 개발자를 꿈꾸는 대학생입니다.</p>
+      <a href="#projects" class="btn">프로젝트 보기</a>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>OO대학교 컴퓨터공학과 4학년에 재학 중이며, 사용자 경험을 고려한 웹 서비스를 만드는 데 관심이 많습니다. 팀 프로젝트를 통해 협업과 소통의 중요성을 배웠습니다.</p>
+      <ul class="info-list">
+        <li><strong>이름</strong> 홍길동</li>
+        <li><strong>학교</strong> OO대학교 컴퓨터공학과</li>
+        <li><strong>희망 직무</strong> 프론트엔드 개발자</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section alt">
+      <h2>Skills</h2>
+      <ul class="card-grid">
+        <li class="card">HTML5</li>
+        <li class="card">CSS3</li>
+        <li class="card">JavaScript</li>
+        <li class="card">Git / GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>할 일 관리 앱</h3>
+          <p>JavaScript로 만든 할 일 관리 웹 애플리케이션입니다.</p>
+        </article>
+        <article class="card">
+          <h3>날씨 정보 사이트</h3>
+          <p>공개 API를 활용해 날씨 정보를 보여주는 웹사이트입니다.</p>
+        </article>
+        <article class="card">
+          <h3>팀 커뮤니티 서비스</h3>
+          <p>4인 팀으로 진행한 게시판 중심의 커뮤니티 프로젝트입니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li><strong>2025.07 ~ 2025.08</strong> OO기업 웹 개발 인턴</li>
+        <li><strong>2025.03 ~ 2025.12</strong> 교내 웹 개발 동아리 활동</li>
+        <li><strong>2024.09</strong> 정보처리기사 취득</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>궁금한 점이 있으시면 편하게 연락해 주세요.</p>
+      <ul class="info-list">
+        <li><strong>이메일</strong> <a href="mailto:example@email.com">example@email.com</a></li>
+        <li><strong>GitHub</strong> <a href="https://github.com/" target="_blank" rel="noopener">github.com/username</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 홍길동. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
